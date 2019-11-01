@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Mi primer menu</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+	</head>
+	<body>
+		<div id="main_conteiner">
+			<div id="menu" class="menu_style"> 
+				<a href="">Home</a>
+				<a href="">News</a>
+				<a href="">Contact</a>
+				<a href="">Login</a>
+			</div>
+		</div>
+		<div id="Contact" class="container" style="max-width: 50%;">
+			<div style="max-width: 100%; ">
+				<form action="mailto:allan.monge19@gmail.com" method="post" enctype="text/plain">
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				    <label for="country">Country</label>
+				    <select id="country" name="country">
+				      <option value="australia">Australia</option>
+				      <option value="canada">Canada</option>
+				      <option value="usa">USA</option>
+				    </select>
+
+				    <label for="subject">Subject</label>
+				    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				    <input type="submit" id="btnSend" value="Send Mail" />
+				</from>
+			</div> 
+		</div>
+		
+	</body>
+</html>
